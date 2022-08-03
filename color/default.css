@@ -1,0 +1,121 @@
+/*
+#1 color = #21BF73;
+#2 color = #FD5E53;
+*/
+
+a:hover,
+a:focus {
+    color: #21BF73;
+}
+
+.circled {
+	background: #21BF73;
+}
+
+.con1 > div, .con2 > div, .con3 > div { 
+	background-color: #21BF73;
+}
+
+.scrollup:hover {
+	background: #21BF73;
+    color: rgb(56, 255, 56);
+}
+
+
+/* service */
+
+.service-icon span {
+	color: #21BF73;
+}
+
+
+
+/* button */
+.btn-skin {
+  background-color: #21BF73;
+  border-color: #21BF73;
+}
+
+
+/* top */
+.top-area {
+	background: #FD5E53;
+}
+
+/* menu */
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+	color: #FD5E53;
+}
+.navbar-custom.top-nav-collapse .nav li a:hover,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li.active a,.navbar-custom.top-nav-collapse .nav li.active a  {
+    color: #FD5E53;
+}
+
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: #21BF73;
+}
+
+
+.bg-skin {
+	background: #21BF73;
+}
+
+.highlight-color {
+	background-color: #21BF73;
+}
+.color {
+	color: #21BF73;
+}
+
+/* pricing box  */
+.pricing-content.featured h2,.pricing-content.featured .price-bottom {
+	background-color:#FD5E53;
+}
+.pricing-content.featured h3 {
+	background:#21BF73;
+}
+
+
+
+/* team */
+.cbp-l-grid-team-name {
+    color: #FD5E53;
+}
+
+.cbp-l-filters-button .cbp-filter-counter {
+	background-color: #21BF73;
+}
+
+.cbp-l-filters-alignLeft .cbp-filter-item-active {
+    /* @editable properties */
+    background-color: #21BF73;
+    border:1px solid #21BF73;
+}
+
+.cbp-l-filters-dropdownWrap {
+    background: #21BF73;
+}
+.cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active {
+    /* @editable properties */
+    background-color: #21BF73;
+    border-color: #21BF73;
+}
+.cbp-l-caption-buttonLeft,
+.cbp-l-caption-buttonRight {
+    /* @editable properties */
+    background-color: #21BF73;
+}
+
+.cbp-l-caption-buttonLeft:hover,
+.cbp-l-caption-buttonRight:hover {
+    /* @editable properties */
+    background-color: #FD5E53;
+}
+
+.form-control:focus {
+  border-color: #FD5E53;
+}
