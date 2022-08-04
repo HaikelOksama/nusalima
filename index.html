@@ -10,6 +10,9 @@
     <title>Nusalima Medika</title>
 	
     <!-- css -->
+	<link href="vendor/animate.css/animate.min.css" rel="stylesheet">
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/c18ae0c266.js" crossorigin="anonymous"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -27,13 +30,80 @@
 	<!-- template skin -->
 	<link id="t-colors" href="color/default.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/custom.css">
 
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	<div id="topbar" class="d-flex align-items-center sticky-top">
+		<div class="container-fluid d-flex justify-content-between">
+		  <div class="contact-info d-flex align-items-center">
+			<i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">nusalimamedika@gmail.com</a>
+			<i class="bi bi-phone"></i> +6281364302646 / +628126714649
+		  </div>
+		  <div class="d-none d-lg-flex social-links align-items-center">
+			<a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+			<a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+		  </div>
+		</div>
+	  </div>
+	<header id="header" class="fixed-top">
+		<div class="container d-flex align-items-center">
 	
+		  <!-- <h1 class="logo me-auto"><a href="index.html">Medilab</a></h1> -->
+		  <!-- Uncomment below if you prefer to use an image logo -->
+		  <a href="index.html" class="logo me-auto"><img src="img/logo copy.png" alt="" class="img-responsive"></a>
+	
+		  <nav id="navbar" class="navbar order-last order-lg-0">
+			<ul>
+			  <li><a class="nav-link scrollto active" href="index.html">Beranda</a></li>
+			  <li class="dropdown"><a href="#"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
+				<ul>
+				  <li><a href="visi-misi.html">PT. Nusa Lima Medika</a></li>
+				  <li><a href="#">Manajemen</a></li>
+				  <li class="dropdown"><a href="#"><span>Telemedicine</span> <i class="bi bi-chevron-right"></i></a>
+					<ul>
+					  <li><a href="#">Klinik Utama</a></li>
+					  <li><a href="#">RS Tandun</a></li>
+					</ul>
+				  </li>
+				</ul>
+			  </li>
+			  <li class="dropdown"><a href="#"><span>Informasi</span> <i class="bi bi-chevron-down"></i></a>
+				<ul>
+				  <li><a href="#">Berita</a></li>
+				  <li><a href="#">Promo</a></li>
+				</ul>
+			  </li>
+			  <li><a class="nav-link scrollto" href="#departments">Unit Kesehatan</a></li>
+			  <li class="dropdown"><a href="#"><span>Call Us</span> <i class="bi bi-chevron-down"></i></a>
+				<ul>
+				  <li><a href="#">Drop Down 1</a></li>
+				  <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+					<ul>
+					  <li><a href="#">Deep Drop Down 1</a></li>
+					  <li><a href="#">Deep Drop Down 2</a></li>
+					  <li><a href="#">Deep Drop Down 3</a></li>
+					  <li><a href="#">Deep Drop Down 4</a></li>
+					  <li><a href="#">Deep Drop Down 5</a></li>
+					</ul>
+				  </li>
+				  <li><a href="#">Drop Down 2</a></li>
+				  <li><a href="#">Drop Down 3</a></li>
+				  <li><a href="#">Drop Down 4</a></li>
+				</ul>
+			  </li>
+			</ul>
+			<i class="bi bi-list mobile-nav-toggle"></i>
+		  </nav><!-- .navbar -->
+	
+		</div>
+	  </header><!-- End Header -->
 <div id="wrapper">
+	<!-- ======= Top Bar ======= -->
 	
+	
+<!-- 	
 	<div class="container-fluid top-bar">
 		
 			<div class="row pl-sm-5 pr-sm-5">
@@ -82,7 +152,7 @@
 			</ul>
 		  </div>
 		</div>
-	  </nav>
+	  </nav> -->
 	  
 	  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -92,15 +162,15 @@
 		</ol>
 		<div class="carousel-inner">
 		  <div class="carousel-item active">
-			<img class="d-block w-100" src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=853&q=80" alt="First slide">
+			<img class="d-block w-100" src="img/home1/banner/background.jpg" alt="First slide">
 			
 		  </div>
 		  <div class="carousel-item">
-			<img class="d-block w-100" src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80" alt="Second slide">
+			<img class="d-block w-100" src="img/home1/banner/background1.jpg" alt="Second slide">
 			
 		  </div>
 		  <div class="carousel-item">
-			<img class="d-block w-100" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Third slide">
+			<img class="d-block w-100" src="img/home1/banner/background2.jpg" alt="Third slide">
 			
 		  </div>
 		</div>
@@ -118,22 +188,12 @@
 		
 		<div class="container ">
 			<div class="row my-box">
-				<div class="col-sm-3 col-md-3 service">
-					<div class="wow fadeInUp" data-wow-delay="0.2s">
-						<div class="box text-center">
-							
-							<i class="fa fa-clock-o fa-3x circled bg-skin text"></i>
-							<h4 class="h-bold">Layanan 24 Jam</h4>
-							
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3 col-md-3 service">
+				<div class="col-sm-2 col-md-2 service">
 					<div class="wow fadeInUp" data-wow-delay="0.2s">
 						<div class="box text-center">
 							
 							<i class="fa fa-user-doctor fa-3x circled bg-skin"></i>
-							<h4 class="h-bold">Tenaga Ahli</h4>
+							<h4 class="h-bold">Profesional</h4>
 							
 						</div>
 					</div>
@@ -141,18 +201,42 @@
 				<div class="col-sm-3 col-md-3 service">
 					<div class="wow fadeInUp" data-wow-delay="0.2s">
 						<div class="box text-center">
-							<i class="fa fa-hand-holding-medical fa-3x circled bg-skin"></i>
-							<h4 class="h-bold">Pelayanan Maksimal</h4>
+							<i class="fa-regular fa-face-grin-beam fa-3x circled bg-skin"></i>
+							<h4 class="h-bold">Ramah</h4>
 							
 						</div>
 					</div>
 				</div>
+				<div class="col-sm-2 col-md-2 service">
+					<div class="wow fadeInUp" data-wow-delay="0.2s">
+						<div class="box text-center">
+							
+							<i class="fa fa-hand-holding-heart fa-3x circled bg-skin text"></i>
+							<h4 class="h-bold">Ikhlas</h4>
+							
+						</div>
+					</div>
+				</div>
+				
+				
 				<div class="col-sm-3 col-md-3 service">
 					<div class="wow fadeInUp" data-wow-delay="0.2s">
 						<div class="box text-center">
 							
 							<i class="fa fa-hospital-o fa-3x circled bg-skin"></i>
-							<h4 class="h-bold">Fasilitas Lengkap</h4>
+							<h4 class="h-bold">Bermutu</h4>
+							<!-- <p>
+							Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut utamur molestiae vix, graecis eligendi ne.
+							</p> -->
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 col-md-2 service">
+					<div class="wow fadeInUp" data-wow-delay="0.2s">
+						<div class="box text-center">
+							
+							<i class="fa fa-child-reaching fa-3x circled bg-skin"></i>
+							<h4 class="h-bold">Antusias</h4>
 							<!-- <p>
 							Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut utamur molestiae vix, graecis eligendi ne.
 							</p> -->
@@ -303,197 +387,172 @@
 		</div>
 	</section>
 	<!-- /Section: services -->
-	
-	
-    <section id="intro" class="intro">
-		
-		<div class="intro-content">
-			<div class="container">
-				
-				<div class="row">
-					<div class="col-lg-6">
-					<div class="wow fadeInDown" data-wow-offset="0" data-wow-delay="0.1s">
-					<!-- <h2 class="h-ultra">Nusa Lima Medika</h2> -->
-					</div>
-					<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.1s">
-					<h4 class="h-light">Kesehatan anda<span class="color"> adalah </span> prioritas kami</h4>
-					</div>
-						<div class="well well-trans">
-						<div class="wow fadeInRight" data-wow-delay="0.1s">
-
-						<ul class="lead-list">
-							<p class="lead">MENGAPA KAMI?</p>
-							<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Affordable monthly premium packages</strong><br />Lorem ipsum dolor sit amet, in verterem persecuti vix, sit te meis</span></li>
-							<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Choose your favourite doctor</strong><br />Sit zril sanctus scaevola ei, ea usu movet graeco</span></li>
-							<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Only use friendly environment</strong><br />Wisi lobortis eos ex, per at movet delectus, qui no vocent deleniti</span></li>
-						</ul>
-
-						</div>
-						</div>
-
-
-					</div>
-					<div class="col-lg-6">
-						<div class="form-wrapper">
-						<div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.2s">
-						
-							<div class="panel panel-skin">
-							<div class="panel-heading">
-									<h3 class="panel-title"><span class="fa fa-pencil-square-o"></span> Make an appoinment <small>(It's free!)</small></h3>
-									</div>
-									<div class="panel-body">
-									<form role="form" class="lead">
-										<div class="row">
-											<div class="col-xs-6 col-sm-6 col-md-6">
-												<div class="form-group">
-													<label>First Name</label>
-													<input type="text" name="first_name" id="first_name" class="form-control input-md">
-												</div>
-											</div>
-											<div class="col-xs-6 col-sm-6 col-md-6">
-												<div class="form-group">
-													<label>Last Name</label>
-													<input type="text" name="last_name" id="last_name" class="form-control input-md">
-												</div>
-											</div>
-										</div>
-
-										<div class="row">
-											<div class="col-xs-6 col-sm-6 col-md-6">
-												<div class="form-group">
-													<label>Email</label>
-													<input type="email" name="email" id="email" class="form-control input-md">
-												</div>
-											</div>
-											<div class="col-xs-6 col-sm-6 col-md-6">
-												<div class="form-group">
-													<label>Phone number</label>
-													<input type="text" name="phone" id="phone" class="form-control input-md">
-												</div>
-											</div>
-										</div>
-										
-										<input type="submit" value="Submit" class="btn btn-skin btn-block btn-lg">
-										
-										<p class="lead-footer">* We'll contact you by phone & email later</p>
-									
-									</form>
-								</div>
-							</div>				
-						
-						</div>
-						</div>
-					</div>					
-				</div>		
-			</div>
-		</div>		
-    </section>
-	
-
-	<!-- Section: team -->
-    <section id="doctor" class="home-section bg-gray paddingbot-60">
+	<section id="pricing" class="gallery home-section paddingbot-60">
+		<!-- <div class="container">
+  
+		  <div class="section-title">
+			<h2>Gallery</h2>
+			<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+		  </div>
+		</div> -->
 		<div class="container marginbot-50">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<div class="wow fadeInDown" data-wow-delay="0.1s">
+					<div class="wow lightSpeedIn" data-wow-delay="0.1s">
+						<div class="section-heading text-center">
+							<h2 class="h-bold">Penawaran Spesial</h2>
+						</div>
+					</div>
+					<div class="divider-short"></div>
+				</div>
+			</div>
+		</div>
+  
+		<div class="container-fluid">
+		  <div class="row align-center justify-content-center g-0">
+  
+			<div class="col-lg-5 col-md-6">
+			  <div class="gallery-item">
+				<a href="assets/img/gallery/gallery-1.jpg" class="galelry-lightbox">
+				  <img src="img/promo/promo1.jpeg" alt="" class="img-fluid ">
+				</a>
+			  </div>
+			</div>
+  
+			<div class="col-lg-5 col-md-6">
+			  <div class="gallery-item">
+				<a href="assets/img/gallery/gallery-2.jpg" class="galelry-lightbox">
+				  <img src="img/promo/promo2.jpeg" alt="" class="img-fluid">
+				</a>
+			  </div>
+			</div>
+  
+			<!-- <div class="col-lg-4 col-md-4">
+			  <div class="gallery-item">
+				<a href="assets/img/gallery/gallery-3.jpg" class="galelry-lightbox">
+				  <img src="img/promo/promo3.jpeg" alt="" class="img-fluid">
+				</a>
+			  </div>
+			</div> -->
+  
+			<div class="col-lg-3 col-md-4">
+			  <div class="gallery-item">
+				<a href="assets/img/gallery/gallery-4.jpg" class="galelry-lightbox">
+				  <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+				</a>
+			  </div>
+			</div>
+  
+			<div class="col-lg-3 col-md-4">
+			  <div class="gallery-item">
+				<a href="assets/img/gallery/gallery-5.jpg" class="galelry-lightbox">
+				  <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+				</a>
+			  </div>
+			</div>
+  
+			<div class="col-lg-3 col-md-4">
+			  <div class="gallery-item">
+				<a href="assets/img/gallery/gallery-6.jpg" class="galelry-lightbox">
+				  <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+				</a>
+			  </div>
+			</div>
+  
+			<div class="col-lg-3 col-md-4">
+			  <div class="gallery-item">
+				<a href="assets/img/gallery/gallery-7.jpg" class="galelry-lightbox">
+				  <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+				</a>
+			  </div>
+			</div>
+  
+			<div class="col-lg-3 col-md-4">
+			  <div class="gallery-item">
+				<a href="assets/img/gallery/gallery-8.jpg" class="galelry-lightbox">
+				  <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+				</a>
+			  </div>
+			</div>
+  
+		  </div>
+		  <div class="my-row"><a href="#" class="btn btn-skin btn-lg mt-5">Lihat Penawaran Lainnya</a></div>
+  
+		</div>
+	  </section><!-- End Gallery Section -->
+
+	<!-- Section: pricing -->
+	
+	<section id="pricing" class="home-section paddingbot-60">
+		<div class="row">
+			
+		</div>
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow lightSpeedIn" data-wow-delay="0.1s">
 					<div class="section-heading text-center">
-					<h2 class="h-bold">Doctors</h2>
-					<p>Ea melius ceteros oportere quo, pri habeo viderer facilisi ei</p>
+					<h2 class="h-bold">Berita Terbaru</h2>
+					<p>Selalu Up-to-Date Dengan Berita Terbaru Dari Kami</p>
 					</div>
 					</div>
 					<div class="divider-short"></div>
 				</div>
 			</div>
 		</div>
-		
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-				
-            <div id="filters-container" class="cbp-l-filters-alignLeft">
-                <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All (<div class="cbp-filter-counter"></div>)</div>
-                <div data-filter=".cardiologist" class="cbp-filter-item">Cardiologist (<div class="cbp-filter-counter"></div>)</div>
-                <div data-filter=".psychiatrist" class="cbp-filter-item">Psychiatrist (<div class="cbp-filter-counter"></div>)</div>
-                <div data-filter=".neurologist" class="cbp-filter-item">Neurologist (<div class="cbp-filter-counter"></div>)</div>
-            </div>
-		
-            <div id="grid-container" class="cbp-l-grid-team">
-                <ul>
-                    <li class="cbp-item psychiatrist">
-                        <a href="doctors/member1.html" class="cbp-caption cbp-singlePage">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="img/team/1.jpg" alt="" width="100%">
-                            </div>
-                            <div class="cbp-caption-activeWrap">
-                                <div class="cbp-l-caption-alignCenter">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="cbp-l-caption-text">VIEW PROFILE</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="doctors/member1.html" class="cbp-singlePage cbp-l-grid-team-name">Alice Grue</a>
-                        <div class="cbp-l-grid-team-position">Psychiatrist</div>
-                    </li>
-                    <li class="cbp-item cardiologist">
-                        <a href="doctors/member2.html" class="cbp-caption cbp-singlePage">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="img/team/2.jpg" alt="" width="100%">
-                            </div>
-                            <div class="cbp-caption-activeWrap">
-                                <div class="cbp-l-caption-alignCenter">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="cbp-l-caption-text">VIEW PROFILE</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="doctors/member2.html" class="cbp-singlePage cbp-l-grid-team-name">Joseph Murphy</a>
-                        <div class="cbp-l-grid-team-position">Cardiologist</div>
-                    </li>
-                    <li class="cbp-item cardiologist">
-                        <a href="doctors/member3.html" class="cbp-caption cbp-singlePage">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="img/team/3.jpg" alt="" width="100%">
-                            </div>
-                            <div class="cbp-caption-activeWrap">
-                                <div class="cbp-l-caption-alignCenter">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="cbp-l-caption-text">VIEW PROFILE</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="doctors/member3.html" class="cbp-singlePage cbp-l-grid-team-name">Alison Davis</a>
-                        <div class="cbp-l-grid-team-position">Cardiologist</div>
-                    </li>
-                    <li class="cbp-item neurologist">
-                        <a href="doctors/member4.html" class="cbp-caption cbp-singlePage">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="img/team/4.jpg" alt="" width="100%">
-                            </div>
-                            <div class="cbp-caption-activeWrap">
-                                <div class="cbp-l-caption-alignCenter">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="cbp-l-caption-text">VIEW PROFILE</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="doctors/member4.html" class="cbp-singlePage cbp-l-grid-team-name">Adam Taylor</a>
-                        <div class="cbp-l-grid-team-position">Neurologist</div>
-                    </li>
-
-                </ul>
-            </div>
+           
+		   <div class="container">
+			<div class="my-row">				
+				<div class="wow bounceInUp" data-wow-delay="0.1s"></div>
+				<div class="my-card">
+					<div class="my-card-img">
+						<img src="img/news/ci.jpg" alt="" srcset="">
+					</div>
+					<div class="my-card-title">VAKSINASI COVID-19</div>
+					<div class="my-card-content">						
+						<p>Vaksinasi Covid-19 merupakan vaksinasi yang harus dilakukan oleh seluruh masyarakat terutama di Indonesia.</p>
+					</div>
+					<a href=""><small>Baca Selengkapnya</small></a>
+				</div>
+			
+			
+				<div class="wow bounceInUp" data-wow-delay="0.1s"></div>
+				<div class="my-card">
+					<div class="my-card-img">
+						<img src="img/news/a.jpg" alt="" srcset="">
+					</div>
+					<div class="my-card-title">PENYAKIT GULA</div>
+					<div class="my-card-content">						
+						<p>Diabetes adalah penyakit kronis yang ditandai dengan ciri-ciri berupa tingginya kadar gula (glukosa) darah. Glukosa merupakan sumber energi utama bagi sel tubuh manusia.</p>
+					</div>
+					<a href=""><small>Baca Selengkapnya</small></a>
+				</div>
+			
+			
+				<div class="wow bounceInUp" data-wow-delay="0.1s"></div>
+				<div class="my-card">
+					<div class="my-card-img">
+						<img src="img/news/b.jpg" alt="" srcset="">
+					</div>
+					<div class="my-card-title">Covid 19</div>
+					<div class="my-card-content">						
+						<p>Penyakit jantung adalah kondisi ketika jantung mengalami gangguan. Bentuk gangguan itu sendiri bermacam-macam, bisa berupa gangguan pada pembuluh darah jantung, katup jantung, atau otot jantung.</p>
+					</div>
+					<a href=""><small>Baca Selengkapnya</small></a>
+				</div>				
 			</div>
+			
+			
 			</div>
-		</div>
-
-	</section>
-	<!-- /Section: team -->
-
-	
+			<div class="my-row"><a href="#" class="btn btn-skin btn-lg mt-5">Lihat Berita Selengkapnya</a></div>			
+			<div class="container-fluid">
+				<div class="embedsocial-hashtag" data-ref="2690e09654e429cabe625fa2646724b274a78c66"><a class="feed-powered-by-es feed-powered-by-es-slider-new" href="https://embedsocial.com/social-media-aggregator/" target="_blank" title="Widget by EmbedSocial">Widget by EmbedSocial<span>→</span></a></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/cdn/ht.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialHashtagScript"));</script>
+			</div>
+            </div>
+			
+			
+	</section>	 
+	<!-- /Section: pricing -->
 		
 	<!-- Section: works -->
     <section id="facilities" class="home-section paddingbot-60">
@@ -529,238 +588,6 @@
 		</div>
 	</section>
 	<!-- /Section: works -->
-	
-	
-	<!-- Section: testimonial -->
-    <section id="testimonial" class="home-section paddingbot-60 parallax" data-stellar-background-ratio="0.5">
-
-<div class="carousel-reviews broun-block">
-    <div class="container">
-        <div class="row">
-            <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
-            
-                <div class="carousel-inner">
-                    <div class="item active">
-                	    <div class="col-md-4 col-sm-6">
-        				    <div class="block-text rel zmin">
-						        <a title="" href="#">Emergency Contraception</a>
-							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
-						        <p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
-							    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-					        </div>
-							<div class="person-text rel text-light">					
-								<img src="img/testimonials/1.jpg" alt="" class="person img-circle" />
-								<a title="" href="#">Anna</a>
-								<span>Chicago, Illinois</span>
-							</div>
-						</div>
-            			<div class="col-md-4 col-sm-6 hidden-xs">
-						    <div class="block-text rel zmin">
-						        <a title="" href="#">Orthopedic Surgery</a>
-							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
-						        <p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
-							    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-				            </div>
-							<div class="person-text rel text-light">
-				                <img src="img/testimonials/2.jpg" alt="" class="person img-circle" />
-								<a title="" href="#">Matthew G</a>
-								<span>San Antonio, Texas</span>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
-							<div class="block-text rel zmin">
-								<a title="" href="#">Medical consultation</a>
-								<div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
-						        <p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
-							    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-							</div>
-							<div class="person-text rel text-light">
-								<img src="img/testimonials/3.jpg" alt="" class="person img-circle" />
-								<a title="" href="#">Scarlet Smith</a>
-								<span>Dallas, Texas</span>
-							</div>
-						</div>
-                    </div>
-                    <div class="item">
-                        <div class="col-md-4 col-sm-6">
-        				    <div class="block-text rel zmin">
-						        <a title="" href="#">Birth control pills</a>
-							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
-						        <p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
-							    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-					        </div>
-							<div class="person-text rel text-light">
-								<img src="img/testimonials/4.jpg" alt="" class="person img-circle" />
-								<a title="" href="#">Lucas Thompson</a>
-								<span>Austin, Texas</span>
-							</div>
-						</div>
-            			<div class="col-md-4 col-sm-6 hidden-xs">
-						    <div class="block-text rel zmin">
-						        <a title="" href="#">Radiology</a>
-							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
-						        <p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
-							    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-				            </div>
-							<div class="person-text rel text-light">
-								<img src="img/testimonials/5.jpg" alt="" class="person img-circle" />
-						        <a title="" href="#">Ella Mentree</a>
-								<span>Fort Worth, Texas</span>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
-							<div class="block-text rel zmin">
-								<a title="" href="#">Cervical Lesions</a>
-								<div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
-						        <p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
-							    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-							</div>
-							<div class="person-text rel text-light">
-								<img src="img/testimonials/6.jpg" alt="" class="person img-circle" />
-								<a title="" href="#">Suzanne Adam</a>
-								<span>Detroit, Michigan</span>
-							</div>
-						</div>
-                    </div>
-                    
-                   
-                </div>
-				
-                <a class="left carousel-control" href="#carousel-reviews" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-reviews" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-	</section>
-	<!-- /Section: testimonial -->
-	
-
-	<!-- Section: pricing -->	
-	<section id="pricing" class="home-section bg-gray paddingbot-60">	
-		<div class="container marginbot-50">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<div class="wow lightSpeedIn" data-wow-delay="0.1s">
-					<div class="section-heading text-center">
-					<h2 class="h-bold">Berita Terbaru</h2>
-					<p>Selalu Up-to-Date Dengan Berita Terbaru Dari Kami</p>
-					</div>
-					</div>
-					<div class="divider-short"></div>
-				</div>
-			</div>
-		</div>
-           
-		   <div class="container">
-			<div class="my-row">				
-				<div class="my-card">
-					<div class="my-card-img">
-						<img src="img/news/ci.jpg" alt="" srcset="">
-					</div>
-					<div class="my-card-title">VAKSINASI COVID-19</div>
-					<div class="my-card-content">						
-						<p>Vaksinasi Covid-19 merupakan vaksinasi yang harus dilakukan oleh seluruh masyarakat terutama di Indonesia.</p>
-					</div>
-					<a href=""><small>Baca Selengkapnya</small></a>
-				</div>
-			
-			
-				<div class="my-card">
-					<div class="my-card-img">
-						<img src="img/news/a.jpg" alt="" srcset="">
-					</div>
-					<div class="my-card-title">PENYAKIT GULA</div>
-					<div class="my-card-content">						
-						<p>Diabetes adalah penyakit kronis yang ditandai dengan ciri-ciri berupa tingginya kadar gula (glukosa) darah. Glukosa merupakan sumber energi utama bagi sel tubuh manusia.</p>
-					</div>
-					<a href=""><small>Baca Selengkapnya</small></a>
-				</div>
-			
-			
-				<div class="my-card">
-					<div class="my-card-img">
-						<img src="img/news/b.jpg" alt="" srcset="">
-					</div>
-					<div class="my-card-title">Covid 19</div>
-					<div class="my-card-content">						
-						<p>Penyakit jantung adalah kondisi ketika jantung mengalami gangguan. Bentuk gangguan itu sendiri bermacam-macam, bisa berupa gangguan pada pembuluh darah jantung, katup jantung, atau otot jantung.</p>
-					</div>
-					<a href=""><small>Baca Selengkapnya</small></a>
-				</div>				
-			</div>
-			
-			
-				<!-- <div class="col-sm-4 pricing-box">
-					<div class="wow bounceInUp" data-wow-delay="0.1s">
-					<div class="pricing-content general">
-						<h2>Basic Fit 1 Package</h2>
-						<h3>$33<sup>.99</sup> <span>/ one time</span></h3>
-						<ul>
-							<li>Anthropometry (BMI, WH Ratio) <i class="fa fa-check icon-success"></i></li>
-							<li>Post Examination Review <i class="fa fa-check icon-success"></i></li>
-							<li>General Screening – Basic <i class="fa fa-check icon-success"></i></li>
-							<li><del>Health Screening Report</del> <i class="fa fa-times icon-danger"></i></li>
-						</ul>
-
-						<div class="price-bottom">
-							<a href="#" class="btn btn-skin btn-lg">Purchase</a>
-						</div>
-					</div>
-					</div>
-				</div>
-
-				<div class="col-sm-4 pricing-box featured-price">
-					<div class="wow bounceInUp" data-wow-delay="0.3s">
-					<div class="pricing-content featured">
-						<h2>Golden Glow Package</h2>
-						<h3>$65<sup>.99</sup> <span>/ one time</span></h3>
-						<ul>
-							<li>Anthropometry (BMI, WH Ratio) <i class="fa fa-check icon-success"></i></li>
-							<li>Post Examination Review <i class="fa fa-check icon-success"></i></li>
-							<li>General Screening – Basic <i class="fa fa-check icon-success"></i></li>
-							<li>Body Composition Analysis <i class="fa fa-check icon-success"></i></li>
-							<li>GR Assessment & Scoring <i class="fa fa-check icon-success"></i></li>
-						</ul>
-
-						<div class="price-bottom">
-							<a href="#" class="btn btn-skin btn-lg">Purchase</a>
-						</div>
-					</div>
-					</div>
-				</div>
-
-				<div class="col-sm-4 pricing-box">
-					<div class="wow bounceInUp" data-wow-delay="0.2s">
-					<div class="pricing-content general last">
-						<h2>Basic Fit 2 Package</h2>
-						<h3>$47<sup>.99</sup> <span>/ one time</span></h3>
-						<ul>
-							<li>Anthropometry (BMI, WH Ratio) <i class="fa fa-check icon-success"></i></li>
-							<li>Post Examination Review <i class="fa fa-check icon-success"></i></li>
-							<li>General Screening – Regular <i class="fa fa-check icon-success"></i></li>
-							<li><del>Health Screening Report</del> <i class="fa fa-times icon-danger"></i></li>
-						</ul>
-
-						<div class="price-bottom">
-							<a href="#" class="btn btn-skin btn-lg">Purchase</a>
-						</div>
-					</div>
-					</div>
-				</div> -->
-
-			</div>
-			<div class="my-row"><a href="#" class="btn btn-skin btn-lg mt-5">Book an appoinment</a></div>			
-			
-            </div>
-			
-	</section>	 
-	<!-- /Section: pricing -->
-	
 	<section id="partner" class="home-section paddingbot-60">	
 		<div class="container marginbot-50">
 			<div class="row">
@@ -800,9 +627,9 @@
 				<div class="col-sm-6 col-md-4">
 					<div class="wow fadeInDown" data-wow-delay="0.1s">
 					<div class="widget">
-						<h5>About Medicio</h5>
+						<h5>PT NUSA LIMA MEDIKA</h5>
 						<p>
-						Lorem ipsum dolor sit amet, ne nam purto nihil impetus, an facilisi accommodare sea
+							PT Nusa Lima Medika adalah anak perusahaan PTPN V yang berfokus untuk menyediakan layanan kesehatan.
 						</p>
 					</div>
 					</div>
@@ -821,10 +648,6 @@
 				<div class="col-sm-6 col-md-4">
 					<div class="wow fadeInDown" data-wow-delay="0.1s">
 					<div class="widget">
-						<h5>Medicio center</h5>
-						<p>
-						Nam leo lorem, tincidunt id risus ut, ornare tincidunt naqunc sit amet.
-						</p>
 						<ul>
 							<li>
 								<span class="fa-stack fa-lg">
@@ -836,13 +659,13 @@
 								<span class="fa-stack fa-lg">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-phone fa-stack-1x fa-inverse"></i>
-								</span> +62 0888 904 711
+								</span> +6281364302646 / +628126714649
 							</li>
 							<li>
 								<span class="fa-stack fa-lg">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-								</span> hello@medicio.com
+								</span>  nusalimamedika@gmail.com
 							</li>
 
 						</ul>
@@ -852,8 +675,8 @@
 				<div class="col-sm-6 col-md-4">
 					<div class="wow fadeInDown" data-wow-delay="0.1s">
 					<div class="widget">
-						<h5>Our location</h5>
-						<p>The Suithouse V303, Kuningan City, Jakarta Indonesia 12940</p>		
+						<h5>Alamat Kantor</h5>
+						<p>JL. Ronggowarsito No. 40 Pekanbaru 28127</p>		
 						
 					</div>
 					</div>
@@ -863,7 +686,7 @@
 						<ul class="company-social">
 								<li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
 								<li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li class="social-google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+								<li class="social-google"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
 								<li class="social-vimeo"><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
 								<li class="social-dribble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
 						</ul>
@@ -894,6 +717,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
 	<!-- Core JavaScript Files -->
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.min.js"></script>	 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
@@ -906,7 +730,7 @@
 	<script src="js/nivo-lightbox.min.js"></script>
     <script src="js/custom.js"></script>
 
-
+	<script src="js/main.js"></script>
 </body>
 
 </html>

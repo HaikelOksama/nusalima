@@ -74,7 +74,7 @@
     max-height: 200px;
     padding: 10px;
     overflow-y: hidden;
-    font-size: 1vw;
+   
 }
 
 .my-card a{
@@ -83,8 +83,8 @@
 }
 
 .carousel-item {
-    height: 100vh;
-    min-height: 300px;
+    height: 80vh;
+    /* min-height: 400px; */
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -108,8 +108,13 @@
     font-size: 18px;
     line-height: 1.9;
   }
+
+  .carousel-inner {
+    max-height: 450px;
+    border-bottom: 5px solid #00bb77;
+  }
   
-  .navbar-light .navbar-brand {
+  /* .navbar-light .navbar-brand {
     color: #fff;
     font-size: 25px;
     text-transform: uppercase;
@@ -172,10 +177,7 @@
     height: 30px;
   }
 
-  .carousel-inner {
-    max-height: 450px;
-    border-bottom: 5px solid #00bb77;
-  }
+
   
   .navbar {
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
@@ -187,15 +189,15 @@
         flex-direction: row;
         gap: 20px;
         text-align: center; */
-    }
-
+    
+/* 
   .nav-item {
     margin-right: 20px;
   }
 
   .nav-item.dropdown.show {
     align-self: center;
-  }
+  } */
 
   #boxes {
     height: 100%;
@@ -219,3 +221,10 @@
  .dropdown-menu {
     border-top: solid 3px #4AA96C;
  }
+
+.vm{
+  margin: 0 auto;
+  border-bottom: .1px solid rgba(128, 128, 128, 0.53);
+  width: 50%;
+}
+
