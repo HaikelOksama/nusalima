@@ -228,3 +228,27 @@
   width: 50%;
 }
 
+.misi li {
+  color: #00bb77;
+}
+
+.misi li span {
+  color: rgb(58, 58, 58);
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #4AA96C;
+}
+
+.nav-link:hover {
+  color: #4AA96C;
+}
+
+.drpdown-menu {
+  transform: rotate(90deg);
+}
+
+.figure img {
+  max-height: 500px;
+}
