@@ -73,9 +73,14 @@
     min-height: 200px;
     max-height: 200px;
     padding: 10px;
-    overflow-y: hidden;
-   
+    overflow: hidden;
+    text-overflow: ellipsis;
+
 }
+.my-card-content p {
+  text-overflow: ellipsis;
+}
+
 
 .my-card a{
     padding: 10px;
@@ -252,3 +257,9 @@
 .figure img {
   max-height: 500px;
 }
+
+.jadwal h6 {
+  font-size: 16px;
+}
+
+.jadwal a {}
