@@ -208,12 +208,19 @@
     height: 100%;
   }
 
+  #boxes i {
+    color: black;
+    font-size: 60px;
+  }
+
   .my-box {
     position: relative;
     bottom: 40px;
     margin-bottom: -70px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-    border-top: 4px solid #00bb77 ;
+    border-top: 4px solid #00bb7600 ;
+    background: rgb(0,187,119);
+    background: linear-gradient(90deg, rgba(0,187,119,1) 48%, rgba(255,255,255,1) 100%);
   }
 
   .service {
@@ -282,3 +289,18 @@
 .social-media {
   border:  .5px solid rgba(128, 128, 128, 0.279);
 }
+
+.tags {
+  border: .5px dotted gray;
+}
+
+
+.promo h5 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.promo a {
+  font-size: 12px;
+}
+
