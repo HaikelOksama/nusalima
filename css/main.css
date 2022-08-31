@@ -366,16 +366,30 @@
 
 .k-unit .card {
   margin-right: 30px;
+  min-width: 100px;
 }
+
 
 .k-unit .card h5 {
   font-size: 1.2em;
 }
 
+
 .item img {
   width: 350px;
   height: 150px;
   object-fit: cover;
+}
+
+@media screen and (max-width:1197px){
+  #med-ico {
+    width: 50%;
+  }
+
+  .k-unit .card {
+    height: 280px;
+    width: 100%;
+  }
 }
 
 .card-ico {
@@ -392,6 +406,10 @@
 .unit-img {
   overflow: hidden;
   height: 200px;
+}
+
+#sdm {
+  
 }
 
 .unit-card {
@@ -419,4 +437,109 @@
 .unit-card p {
   font-size: 1.4rem;
 }
+
+.unit-heading {
+  background-color: #00bb77;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.unit-detail h3 {
+  margin-bottom: 0;
+}
+
+
+.uni-single-departments-left .uni-single-department-left-title {
+  background-color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 60px;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  }
+
+.uni-single-departments-left .uni-single-department-left-table {
+  background-color: #00bb77;
+  padding: 0 20px; }
+  .uni-single-departments-left .uni-single-department-left-table tr:first-child td {
+    border-top: none; }
+  .uni-single-departments-left .uni-single-department-left-table tr td {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+
+.uni-single-departments-left .uni-single-department-contact-info {
+  background-color: #00bb77; 
+}
+  .uni-single-departments-left .uni-single-department-contact-info ul {
+    padding: 20px; }
+    .uni-single-departments-left .uni-single-department-contact-info ul li {
+      list-style-type: none;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2.14;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      border-bottom: 1px solid white;
+      padding-bottom: 15px;
+      margin-bottom: 15px; }
+      .uni-single-departments-left .uni-single-department-contact-info ul li:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0; }
+
+.uni-single-departments-right .uni-single-departments-right-title {
+  /* font-size: 24px; */
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  color: #333; }
+
+.uni-single-departments-right .uni-divider {
+  border-color: #3f97da; }
+
+.uni-single-departments-right .uni-single-departments-cardiology img {
+  width: 100%;
+  height: auto; }
+
+.uni-single-departments-right .uni-single-departments-cardiology p {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #666666; }
+
+.uni-single-departments-right .uni-single-departments-cardiology ul {
+  padding-top: 30px; }
+  .uni-single-departments-right .uni-single-departments-cardiology ul li {
+    position: relative;
+    padding-left: 15px; }
+    .uni-single-departments-right .uni-single-departments-cardiology ul li:before {
+      position: absolute;
+      top: 7px;
+      left: 0;
+      content: '\f111';
+      font-family: FontAwesome;
+      font-size: 7px;
+      color: #00bb77; }
 
