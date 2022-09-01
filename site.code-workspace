@@ -7,5 +7,7 @@
 			"path": "..\\..\\..\\..\\Downloads\\Medilab\\Medilab"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "site"
+	}
 }

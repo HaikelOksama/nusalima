@@ -1,5 +1,10 @@
+
 /*global jQuery:false */
 (function ($) {
+	$(document).ready(function(){
+		$(".preloader").fadeOut();
+		})
+		
 
 	var wow = new WOW(
 	  {

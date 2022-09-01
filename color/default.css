@@ -1,23 +1,23 @@
 /*
-#1 color = #21BF73;
+#1 color = #03CFF2;
 #2 color = #FD5E53;
 */
 
 a:hover,
 a:focus {
-    color: #21BF73;
+    color: #03CFF2;
 }
 
 .circled {
-	background: #21BF73;
+	background: #03CFF2;
 }
 
 .con1 > div, .con2 > div, .con3 > div { 
-	background-color: #21BF73;
+	background-color: #03CFF2;
 }
 
 .scrollup:hover {
-	background: #21BF73;
+	background: #03CFF2;
     color: rgb(56, 255, 56);
 }
 
@@ -25,15 +25,15 @@ a:focus {
 /* service */
 
 .service-icon span {
-	color: #21BF73;
+	color: #03CFF2;
 }
 
 
 
 /* button */
 .btn-skin {
-  background-color: #21BF73;
-  border-color: #21BF73;
+  background-color: #03CFF2;
+  border-color: #03CFF2;
 }
 
 
@@ -56,19 +56,19 @@ a:focus {
 
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
-    background-color: #21BF73;
+    background-color: #03CFF2;
 }
 
 
 .bg-skin {
-	background: #21BF73;
+	background: #03CFF2;
 }
 
 .highlight-color {
-	background-color: #21BF73;
+	background-color: #03CFF2;
 }
 .color {
-	color: #21BF73;
+	color: #03CFF2;
 }
 
 /* pricing box  */
@@ -76,7 +76,7 @@ a:focus {
 	background-color:#FD5E53;
 }
 .pricing-content.featured h3 {
-	background:#21BF73;
+	background:#03CFF2;
 }
 
 
@@ -87,27 +87,27 @@ a:focus {
 }
 
 .cbp-l-filters-button .cbp-filter-counter {
-	background-color: #21BF73;
+	background-color: #03CFF2;
 }
 
 .cbp-l-filters-alignLeft .cbp-filter-item-active {
     /* @editable properties */
-    background-color: #21BF73;
-    border:1px solid #21BF73;
+    background-color: #03CFF2;
+    border:1px solid #03CFF2;
 }
 
 .cbp-l-filters-dropdownWrap {
-    background: #21BF73;
+    background: #03CFF2;
 }
 .cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active {
     /* @editable properties */
-    background-color: #21BF73;
-    border-color: #21BF73;
+    background-color: #03CFF2;
+    border-color: #03CFF2;
 }
 .cbp-l-caption-buttonLeft,
 .cbp-l-caption-buttonRight {
     /* @editable properties */
-    background-color: #21BF73;
+    background-color: #03CFF2;
 }
 
 .cbp-l-caption-buttonLeft:hover,
